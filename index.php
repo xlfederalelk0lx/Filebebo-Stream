@@ -44,7 +44,7 @@ if($_GET['movie'] != ''){
             });
 
             jwplayer("FilebeboPlayer").on("ready",function () {
-                jwplayer("FilebeboPlayer").resize($(document).width(),$(document``).height());
+                jwplayer("FilebeboPlayer").resize($(document).width(),$(document).height());
             });
         });
     </script>
