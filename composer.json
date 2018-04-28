@@ -1,0 +1,21 @@
+{
+    "name": "xlfederalelk0lx/filebebo-stream",
+    "description": "Script PHP para reproducir videos desde el servidor Filebebo",
+    "type": "Project",
+    "require": {
+        "php-curl-class/php-curl-class": "^8.0"
+    },
+    "license": "Free",
+    "authors": [
+        {
+            "name": "Jose Lui Coyotzi Ipatzi",
+            "email": "coil811122@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
